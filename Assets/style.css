@@ -1,0 +1,27 @@
+
+.container {
+    margin-top: auto;
+    content: inherit;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    content: inherit;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+    div {
+        width: 100%;
+        overflow: scroll;
+        }
+    .container{
+     overflow: scroll;
+    }
+    .navbar {
+    overflow: scroll;
+    }
+}
+ 
