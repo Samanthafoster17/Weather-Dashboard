@@ -121,7 +121,8 @@ var queryURLUV = "https://api.openweathermap.org/data/2.5/uvi?&appid=" + APIkey 
                 uvlEl.css("background-color", "green");
             }
             else if (uvresults >= 3 && uvresults <= 5){
-                uvlEl.css("background-color", "yellow");
+                uvlEl.css("background-color", "yellow"),
+                uvlEl.css("color", "black");
             }
             else  if (uvresults > 5 && uvresults <= 7) {
                 uvlEl.css("background-color", "orange");
