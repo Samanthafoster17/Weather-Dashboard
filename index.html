@@ -117,7 +117,7 @@ var queryURLUV = "https://api.openweathermap.org/data/2.5/uvi?&appid=" + APIkey 
                 uvlEl.css("color", "white");
 // ---------------------Set UV indicator color according to results--------------------------------//
             
-            if (uvresults <= 2){
+            if (uvresults < 3){
                 uvlEl.css("background-color", "green");
             }
             else if (uvresults >= 3 && uvresults <= 5){
