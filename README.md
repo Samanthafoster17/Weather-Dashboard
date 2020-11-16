@@ -1,9 +1,47 @@
 # Weather-Dashboard
+   
+![License](https://img.shields.io/badge/License-None-blue.svg "License Badge")
 
-##Description
-Displays current weather information for any city searched within the U.S.
-Current city information displays temperature, wind speed, humidity, and UV index which is also color coded to show UV rating level. 
-Also display's five day forecast information so that you may prepare for current and future weather conditions.
+
+## Table of Contents:
+
+- [Description](#description)
+
+- [Installation](#installation)
+
+- [License](#license) 
+
+- [Contribution](#contribution)
+
+- [Tests](#tests)
+
+- [Questions](#questions) 
+
+
+## Description
+Users may search weather information for any city within the U.S. to be presented with that cities temperature, wind speed, humidity, UV index which is also color coded according to UV rating level, As well as five day forecast.  
+  
+## Installation 
+N/A 
+  
+## License
+None
+
+For more information please visit: 
+https://opensource.org/licenses/category
+  
+## Contribution 
+N/A 
+  
+## Tests
+N/A 
+  
+## Questions 
+Please send any questions to: Samanthafoster17@gmail.com
+
+You may view GitHub profile here: 
+-[Github Profile](https://github.com/Samanthafoster17).
+
 
 ##Image of dashboard
 ![image](https://user-images.githubusercontent.com/68489432/94578338-9d4cff00-0245-11eb-93ea-19d5a5b7c02b.png)
