@@ -21,7 +21,7 @@ $.ajax({
     //create city info for page
     var cityNameEl = $("<h2>").text(response.name);
     var showDate = cityNameEl.append(" " + mainDate);
-    var tempEL = $("<p>").text("Tempraturer: " + response.main.temp);
+    var tempEL = $("<p>").text("Temprature: " + response.main.temp);
     var humEl = $("<p>").text("Humidity: " + response.main.humidity);
     var windEl = $("<p>").text("Wind Speed: " + response.wind.speed);
     var currentweather = response.weather[0].main;
